@@ -22,8 +22,8 @@ body{
 }
 .card-content{
     /* background-color: red; */
-    /* color: white; */
-    /* max-height: 100%;
+/* color: white; */
+/* max-height: 100%;
     max-width: 50%;
     border-radius: 20px;
 }
@@ -82,4 +82,34 @@ table tr{
     color: hsl(277, 64%, 61%);
 }
 
- */ 
+ */
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	font-family: "Inter", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-color: red;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    width: 540px;
+    height: 90%;
+}
+.card-image{
+    width: 100%;
+    height: 50%;
+}
+.card-content{
+    width: 100%;
+    height: 50%;
+}

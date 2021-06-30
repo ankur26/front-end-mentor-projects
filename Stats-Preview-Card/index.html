@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,50 +13,32 @@
     rel="stylesheet">
   <link rel="stylesheet" href="app.css">
   <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
 </head>
 
 <body>
-    <main class="content">
-      <section class="card-content">
-        <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere doloremque nam, neque laudantium commodi
-        recusandae distinctio. Odio sunt laudantium temporibus modi odit quibusdam sint unde voluptate nihil dolor,
-        earum nobis.
-        Voluptate laborum in laudantium odio earum labore eius aperiam quia mollitia quod quo eos libero aspernatur
-        cupiditate, adipisci eum quasi voluptas velit ex atque! Nobis excepturi quis enim ducimus ullam? -->
-        <div class="card-padding">
-        <h1 class="card-header">Get <span class="highlight">insights</span> that help your business grow.
-        </h1>
-        <p class="card-description"> Discover the benefits of data analytics and make better decisions regarding
-          revenue,
-          customer
-          experience, and overall efficiency.
-        <p>
-
-        <p class="card-stats">
-        <table>
-          <tr>
-            <th>10k+</th>
-            <th>314</th>
-            <th>12m+</th>
-          </tr>
-          <tr>
-            <td>companies</td>
-            <td>templates</td>
-            <td>queries</td>
-          </tr>
-        </table>
-        </p>
+  <main class="card">
+    <div class="card-image">
+      <img src="/images/image-header-mobile.jpg" alt="workplace">
+    </div>
+    <div class="card-content">
+      <h1>Get <span class="purple-text">insights</span> that help your business grow.</h1>
+      <p class="card-text"> Discover the benefits of data analytics and make better decisions regarding revenue,
+        customer
+        experience, and overall efficiency.</p>
+      <div class="card-stats">
+        <div class="stat"><span class="stat-num">10k+</span><span class="stat-text">companies</span></div>
+        <div class="stat"><span class="stat-num">314</span><span class="stat-text">templates</span></div>
+        <div class="stat"><span class="stat-num">12m+</span><span class="stat-text">queries</span></div>
       </div>
-      </section>
-      <section class="card-image">
-        <img src="images/image-header-desktop.jpg" alt="workplace image">
-      </section>
-
-    </main>
-  <!-- <div class="attribution">
+    </div>
+  </main>
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Ankur Bhatkalkar</a>.
-  </div> -->
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
 </body>
 
 </html>

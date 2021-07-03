@@ -26,9 +26,9 @@ Users should be able to:
 ### Screenshot
 
 - Mobile View
-![](.readme_assets/card_mobile.png)
+<img src="readme_assets/card_mobile.png">
 - Desktop View
-![](.readme_assets/card_desktop.png)
+<img src="readme_assets/card_desktop.png">
 
 
 ### Links

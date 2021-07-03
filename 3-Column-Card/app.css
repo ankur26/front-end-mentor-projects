@@ -1,0 +1,104 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size:15px;
+    font-family: "Lexend Deca",sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+}
+
+.container-sm {
+    max-width: 375px;
+    margin: 10% auto;
+}
+h1{
+    font-family: "Big Shoulders Display","Lexend Deca",sans-serif;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.row h1{
+    padding-left: 0;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 10%;
+    border-radius: 10px 10px 0 0;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 10%;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 10%;
+    border-radius: 0 0 10px 10px;
+}
+.sedans div,.suvs div,.luxury div{
+    padding: 10px 0;
+    margin:10px 0;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.button-responsive{
+    border-radius: 40px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    transition-duration: inherit;
+    font-size: 1rem;
+}
+.button-responsive:hover{
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.sedans .button-responsive{
+    color: hsl(31, 77%, 52%);
+}
+.sedans .button-responsive:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.suvs .button-responsive{
+    color: hsl(184, 100%, 22%);
+}
+.suvs .button-responsive:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.luxury .button-responsive{
+    color: hsl(179, 100%, 13%);
+}
+.luxury .button-responsive:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media (min-width:1000px) {
+    .container-sm{
+        max-width: 960px;
+    }
+    .sedans,.suvs,.luxury{
+        max-height: 600px;
+        padding:10px 5% 5% 2.5%;
+    }
+    .sedans div,.suvs div,.luxury div{
+        padding:5px 15px 5px 0;
+        margin:5px 0;
+    }
+    .button-responsive{
+        margin-top:60px;
+    }
+    .sedans{
+        border-radius: 10px 0 0 10px;
+    }
+    .luxury{
+        border-radius: 0 10px 10px 0;
+    }
+    
+}

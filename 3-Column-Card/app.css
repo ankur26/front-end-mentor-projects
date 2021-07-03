@@ -42,6 +42,7 @@ h1{
 .attribution {
 	font-size: 11px;
 	text-align: center;
+    color: black;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
@@ -83,16 +84,19 @@ h1{
     .container-sm{
         max-width: 960px;
     }
+    svg{
+        margin-bottom: 20px;
+    }
     .sedans,.suvs,.luxury{
         max-height: 600px;
-        padding:10px 5% 5% 2.5%;
+        padding:5% 5% 10% 5%;
     }
     .sedans div,.suvs div,.luxury div{
         padding:5px 15px 5px 0;
         margin:5px 0;
     }
     .button-responsive{
-        margin-top:60px;
+        margin-top:30%;
     }
     .sedans{
         border-radius: 10px 0 0 10px;

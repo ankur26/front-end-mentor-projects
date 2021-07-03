@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link](https://your-solution-url.com)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/3-column-card-solution-using-bootstrap-and-pure-css-ZRI3U2V-C)
 - Live Site URL: [Link](https://front-end-mentor-projects-sable.vercel.app/3-Column-Card/index.html)
 
 ## My process

@@ -89,7 +89,7 @@ h1{
     }
     .sedans,.suvs,.luxury{
         max-height: 600px;
-        padding:5% 5% 10% 5%;
+        padding:5%;
     }
     .sedans div,.suvs div,.luxury div{
         padding:5px 15px 5px 0;

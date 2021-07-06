@@ -28,9 +28,9 @@ Users should be able to:
 ### Screenshot
 
 - Mobile
-<img src="readme_assets/3_card_mobile.png">
+<img src="readme_assets/3_col_mobile.png">
 - Desktop
-<img src="readme_assets/3_card_desktop.png">
+<img src="readme_assets/3_col_desktop.png">
 
 
 ### Links

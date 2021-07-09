@@ -1,7 +1,5 @@
 body,
 html {
-	width: 100%;
-	height: 100%;
 	font-size: 15px;
 	font-family: "Inter", sans-serif;
 }
@@ -24,21 +22,24 @@ h1 {
 	border-radius: 10px;
 	margin: 10%;
 	max-width: 375px;
+	gap: 0;
 	/* height: 100%; */
 }
 .card-image {
 	background-color: hsl(277, 64%, 61%);
 	height: 30%;
 	border-radius: 10px 10px 0 0;
-	z-index: 1;
+	/* z-index: 1; */
 	/* opacity: 1; */
 }
 .card-image img {
+	/* padding-top: 10px; */
 	opacity: 0.4;
 	height: 100%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
-	z-index: 0;
+	/* z-index: 0; */
+	object-fit: cover;
 }
 .card-content {
 	padding: 10% 10% 10% 10%;

@@ -55,7 +55,9 @@ I started with building the component from a desktop workflow and initially and 
 - Responsive Media Queries
 - Mobile First Approach as the card component was designed with mobile devices in mind
 
+
 ## Author
 
 - Profile - [Ankur Bhatkalkar](https://www.linkedin.com/in/ankur-bhatkalkar)
 - Frontend Mentor - [@ankur26](https://www.frontendmentor.io/profile/ankur26)
+

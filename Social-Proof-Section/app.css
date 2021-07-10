@@ -1,0 +1,212 @@
+body,
+html {
+	font-size: 15px;
+	font-family: 'Spartan', sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top-svg .top-svg-desktop, .bottom-svg .bottom-svg-desktop{
+  display: none;
+}
+.top-svg .top-svg-mobile{
+  /* background-color: lightblue; */
+  margin-bottom: -60%;
+}
+.top-svg .top-svg-mobile img,
+.bottom-svg .bottom-svg-mobile img{
+  width: 100%;
+  height: auto;
+}
+.bottom-svg .bottom-svg-mobile{
+  /* background-color: lightblue; */
+  opacity: 0.5;
+  margin-top:-450px;
+  z-index: -1;
+}
+.title {
+  margin: 10px;
+}
+.title h1{
+  margin-top:50px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+.title p{
+  text-align:center;
+  margin-bottom: 25px;
+}
+.star-reviews{
+  margin-bottom: 50px;
+}
+.star-review-card{
+  background-color:hsl(300, 24%, 96%);
+  margin:10px;
+  padding:10px 0;
+  border-radius: 10px;
+}
+.star-review-card .stars{
+  margin-bottom: 5px;
+}
+.star-review-card .stars object{
+  margin:0 5px;
+}
+.star-review-text{
+  color: hsl(300, 43%, 22%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.title p{
+  color: hsl(303, 10%, 53%);
+  font-weight: 400;
+}
+.testimonial{
+  margin:15px 0;
+  background-color: hsl(300, 43%, 22%);
+  padding: 25px;
+  border-radius: 10px;
+}
+.testimonial-profile{
+  display: flex;
+  justify-content:flex-start;
+  margin-bottom: 15px;
+  align-items: center;
+  padding:20px 20px 10px 20px;
+}
+.testimonial-profile h2,.testimonial-review{
+  color: white;
+}
+.testimonial-profile-name{
+  padding-left: 10%;
+  /* padding-top:5px */
+}
+.testimonial-profile h2,h3{
+  font-size: 1rem;
+  font-weight: 700;
+  /* padding:0 0 0 10%; */
+  /* display: inline-block; */
+  /* text-align: left; */
+  margin:0;
+}
+.testimonial-profile h2{
+  padding-top:2.5px;
+}
+.testimonial-profile h3{
+  color:hsl(333, 80%, 67%);
+  font-weight: 400;
+  margin-top:5px;
+}
+.testimonial-profile img{
+  border-radius: 50%;
+  max-width: 15%;
+  height: 43.5px;
+}
+.testimonial-review{
+  /* color:hsl(303, 10%, 53%); */
+  text-align: left;
+  font-weight: 400;
+  font-size: 1rem;
+  padding:0 15px;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+
+
+@media (min-width:1085px) {
+  body{
+    min-width: 1200px;
+  }
+  .title-start-section{
+    display: flex;
+  }
+  .title{
+    width: 40%;
+    /* text-align: left; */
+    /* padding-right: 20%;     */
+  }
+  .title h1{
+    margin: 0;
+    /* padding:10% */
+    padding-right: 20%;
+    text-align: left;
+    font-size: 3rem;
+  }
+  .title p{
+    margin-top: 5%;
+    text-align: left;
+    padding-right: 15%;
+  }
+  .star-reviews{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .star-review-card .stars{ 
+    margin-right: 10px;
+  }
+  .star-review-card{
+    /* max-width: 80%; */
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px 25px 10px 25px;
+  }
+  .star-review-card:nth-of-type(1){
+    align-self: flex-start;
+  }
+  .star-review-card:nth-of-type(2){
+    align-self: center;
+  }
+  .star-review-card:nth-of-type(3){
+    align-self: flex-end;
+  }
+  .testimonials{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:center;
+    margin: 30px 0 0 0;
+  }
+  .testimonial{
+    /* height: 80%; */
+    max-width: 375px;
+  }
+  .testimonial:nth-of-type(1){
+    /* align-self:flex-start */
+    margin-top:-20px;
+  }
+  .testimonial:nth-of-type(3){
+    margin-bottom: -20px;
+  }
+  .top-svg .top-svg-desktop,.bottom-svg .bottom-svg-desktop{
+    display: block;
+    /* background-color: lightblue; */
+  }
+  .top-svg .top-svg-mobile, .bottom-svg .bottom-svg-mobile{
+    display: none;
+  }
+  .top-svg .top-svg-desktop{
+    margin-bottom:-200px;
+  }
+  .bottom-svg .bottom-svg-desktop{
+    margin-left: 115px;
+    margin-top: -600px;
+  }
+}

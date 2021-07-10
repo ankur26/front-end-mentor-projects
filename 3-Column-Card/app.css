@@ -54,6 +54,8 @@ h1{
     border: 2px solid hsl(0, 0%, 95%);
     transition-duration: inherit;
     font-size: 1rem;
+    transition-duration: 0.2s;
+    transition: ease-in;
 }
 .button-responsive:hover{
     border: 2px solid hsl(0, 0%, 95%);

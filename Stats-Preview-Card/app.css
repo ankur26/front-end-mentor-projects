@@ -34,13 +34,14 @@ h1 {
 }
 .card-image img {
 	/* padding-top: 10px; */
-	opacity: 0.4;
+	opacity: 0.7;
 	height: 100%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
 	/* z-index: 0; */
 	object-fit: cover;
 	/* display: block; */
+	mix-blend-mode: multiply;
 }
 .img-mobile{
 	display: block;

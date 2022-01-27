@@ -6,8 +6,8 @@
     text-align: center;
 }
 body{
-    min-width: 375px;
-    max-width: 475px;
+    max-width: 375px;
+    /* max-width: 475px; */
     margin:0 auto;
 }
 .header{
@@ -103,7 +103,7 @@ a:hover{
 #graphic-design{
     background-image: url("../images/mobile/image-graphic-design.jpg");
     background-size:100% auto;
-    padding:400px 20px 50px 20px;
+    padding:400px 20px 40px 20px;
     /* background-repeat: repeat-; */
     /* bac */
 }
@@ -111,14 +111,15 @@ a:hover{
     color: hsl(167, 40%, 24%);
     font-size: 1.5rem;
     font-family: 'Fraunces', serif;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-weight: 700;
 }
 #graphic-design p{
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
-    margin:25px 0;
-    line-height: 1rem;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    line-height: 1.5rem;
     color: hsl(167, 40%, 24%);
 }
 
@@ -139,8 +140,9 @@ a:hover{
 #photography p{
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
-    margin:25px 0;
-    line-height: 1rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
     color:hsl(198, 62%, 26%);
 
 }

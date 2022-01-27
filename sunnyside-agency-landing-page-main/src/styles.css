@@ -287,6 +287,7 @@ a:hover {
 .menu-nav li > a {
 	font-family: 'Barlow', sans-serif;
 	text-transform: capitalize; /* margin:10px 0; */
+    color: hsl(213, 9%, 39%);
 }
 .none {
 	display: none;

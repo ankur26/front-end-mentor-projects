@@ -1,255 +1,305 @@
 /* Header and basic common styles */
 /* Mobile first approach */
-:root{
-    box-sizing: border-box;
-    font-size: 18px;
-    text-align: center;
+:root {
+	box-sizing: border-box;
+	font-size: 18px;
+	text-align: center;
 }
-body{
-    max-width: 375px;
-    /* max-width: 475px; */
-    margin:0 auto;
+body {
+	max-width: 375px;
+	/* max-width: 475px; */
+	margin: 0 auto;
 }
-.header{
-    background-image: url("../images/mobile/image-header.jpg");
-    background-size:contain;
-    background-repeat:round;
+.header {
+	background-image: url("../images/mobile/image-header.jpg");
+	background-size: contain;
+	background-repeat: round;
 }
-#logo-nav{
-    display:flex;
-    padding: 20px;
-    margin-bottom: 50px;
+#logo-nav {
+	display: flex;
+	padding: 20px;
+	/* margin-bottom: 50px; */
 }
-#logo-nav .logo{
-    width: 150px;
+#logo-nav .logo {
+	width: 150px;
 }
-#logo-nav .hamburger{
-    width: auto;
-    height: auto;
-    margin-left: auto;
+#logo-nav .hamburger {
+	width: auto;
+	height: auto;
+	margin-left: auto;
 }
-#header-content{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+#header-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
-#header-content h1{
-    margin-bottom:50px;
-    font-size: 2.5rem;
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 10px;
+#header-content h1 {
+	margin-bottom: 50px;
+	font-size: 2.5rem;
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 10px;
 }
-img{
-    width: 100%;
-    height: auto;
+img {
+	width: 100%;
+	height: auto;
 }
-.header-img-div{
-    margin:50px 0 0 0;
-    padding-bottom: 150px;
+.header-img-div {
+	margin: 50px 0 0 0;
+	padding-bottom: 150px;
 }
-.arrow{
-    height: fit-content;
-    width: min-content;
-    margin: 0 auto;
+.arrow {
+	height: fit-content;
+	width: min-content;
+	margin: 0 auto;
 }
 
-a{
-    text-decoration: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color:hsl(212, 27%, 19%);
-    font-family: 'Fraunces', serif;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+a {
+	text-decoration: none;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: hsl(212, 27%, 19%);
+	font-family: 'Fraunces', serif;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
 }
-a:hover{
-    text-decoration: underline;
-    text-decoration-color: hsl(51, 100%, 49%);
-    /* text-decoration-thickness: auto; */
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: hsl(51, 100%, 49%);
+	/* text-decoration-thickness: auto; */
 }
 
 /* Transform Section and Stand-out section styles */
 
-#transform, #stand-out{
-    background-color: white;
+#transform,
+#stand-out {
+	background-color: white;
 }
-#transform .row-content, #stand-out .row-content{
-    margin: 50px 0;
-    padding:20px;
+#transform .row-content,
+#stand-out .row-content {
+	margin: 50px 0;
+	padding: 20px;
 }
-#transform h2, #stand-out h2{
-    color: hsl(212, 27%, 19%);
-    font-size: 2rem;
-    font-family: 'Fraunces', serif;
-    margin-bottom: 25px;
-    font-weight: 700;
+#transform h2,
+#stand-out h2 {
+	color: hsl(212, 27%, 19%);
+	font-size: 2rem;
+	font-family: 'Fraunces', serif;
+	margin-bottom: 25px;
+	font-weight: 700;
 }
-#transform p, #stand-out p{
-    color: hsl(210, 4%, 67%);
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    margin:25px 0;
-    line-height: 1.5rem;
-
+#transform p,
+#stand-out p {
+	color: hsl(210, 4%, 67%);
+	font-family: 'Barlow', sans-serif;
+	font-weight: 600;
+	margin: 25px 0;
+	line-height: 1.5rem;
 }
 
 /* Graphic Design Section Styles */
 
-#graphic-design{
-    background-image: url("../images/mobile/image-graphic-design.jpg");
-    background-size:100% auto;
-    padding:400px 20px 40px 20px;
-    /* background-repeat: repeat-; */
-    /* bac */
+#graphic-design {
+	background-image: url("../images/mobile/image-graphic-design.jpg");
+	background-size: 100% auto;
+	padding: 400px 20px 40px 20px;
+	/* background-repeat: repeat-; */
+	/* bac */
 }
-#graphic-design h2{
-    color: hsl(167, 40%, 24%);
-    font-size: 1.5rem;
-    font-family: 'Fraunces', serif;
-    margin-bottom: 10px;
-    font-weight: 700;
+#graphic-design h2 {
+	color: hsl(167, 40%, 24%);
+	font-size: 1.5rem;
+	font-family: 'Fraunces', serif;
+	margin-bottom: 10px;
+	font-weight: 700;
 }
-#graphic-design p{
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    /* margin-top: 15px; */
-    margin-bottom: 15px;
-    line-height: 1.5rem;
-    color: hsl(167, 40%, 24%);
+#graphic-design p {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 600;
+	/* margin-top: 15px; */
+	margin-bottom: 15px;
+	line-height: 1.5rem;
+	color: hsl(167, 40%, 24%);
 }
 
 /* Photography section styles */
 
-#photography{
-    background-image: url("../images/mobile/image-photography.jpg");
-    background-size:100% auto;
-    padding:400px 20px 50px 20px;
+#photography {
+	background-image: url("../images/mobile/image-photography.jpg");
+	background-size: 100% auto;
+	padding: 400px 20px 50px 20px;
 }
-#photography h2{
-    font-size: 1.5rem;
-    font-family: 'Fraunces', serif;
-    margin-bottom: 25px;
-    font-weight: 700;
-    color:hsl(198, 62%, 26%);
+#photography h2 {
+	font-size: 1.5rem;
+	font-family: 'Fraunces', serif;
+	margin-bottom: 25px;
+	font-weight: 700;
+	color: hsl(198, 62%, 26%);
 }
-#photography p{
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    line-height: 1.5rem;
-    color:hsl(198, 62%, 26%);
-
+#photography p {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	line-height: 1.5rem;
+	color: hsl(198, 62%, 26%);
 }
 
 /* Client Testimonials section */
 
-.testimonials{
-    padding: 50px 25px;
+.testimonials {
+	padding: 50px 25px;
 }
-.testimonial-header h2{
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    color: hsl(210, 4%, 67%);
-    text-transform: uppercase;
-    /* letter-spacing: 10px; */
-    font-size: 1rem;
-    letter-spacing: 5px;
+.testimonial-header h2 {
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	color: hsl(210, 4%, 67%);
+	text-transform: uppercase;
+	/* letter-spacing: 10px; */
+	font-size: 1rem;
+	letter-spacing: 5px;
 }
-.testimonial{
-    margin: 25px 0;
+.testimonial {
+	margin: 25px 0;
 }
-.testimonial img{
-    border-radius: 50%;
-    width:75px;
-    margin:25px 0;
+.testimonial img {
+	border-radius: 50%;
+	width: 75px;
+	margin: 25px 0;
 }
-.testimonial h3{
-    font-family: 'Barlow', sans-serif;
-    color: hsl(213, 9%, 39%);
-    line-height: 1.5rem;
-    margin-bottom:10px;
+.testimonial h3 {
+	font-family: 'Barlow', sans-serif;
+	color: hsl(213, 9%, 39%);
+	line-height: 1.5rem;
+	margin-bottom: 10px;
 }
-.testimonial .name{
-    font-family: 'Fraunces', serif;
-    font-size: 1rem;
-    font-weight: 900;
-    margin-bottom: 10px;
+.testimonial .name {
+	font-family: 'Fraunces', serif;
+	font-size: 1rem;
+	font-weight: 900;
+	margin-bottom: 10px;
 }
-.testimonial .title{
-    font-family: 'Barlow', sans-serif;
-    color: hsl(210, 4%, 67%);
+.testimonial .title {
+	font-family: 'Barlow', sans-serif;
+	color: hsl(210, 4%, 67%);
 }
 
 /* Footer Image Grid Styles */
 
-.footer-image-grid{
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-    flex-grow: 1;
+.footer-image-grid {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	flex-grow: 1;
 }
-.footer-image-grid .row{
-    display: flex;
-    flex-wrap: nowrap;
+.footer-image-grid .row {
+	display: flex;
+	flex-wrap: nowrap;
 }
-.footer-image-grid img{
-    flex:1 1 100%;
-    min-width: 0;
+.footer-image-grid img {
+	flex: 1 1 100%;
+	min-width: 0;
 }
 
 /* Footer Call to action section styles */
 
-.footer-cta{
-    background-color: hsl(167, 44%, 70%);
+.footer-cta {
+	background-color: hsl(167, 44%, 70%);
 }
-.footer-cta-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-cta-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-cta-logo {
+	/* margin:25px 0; */
+	padding: 25px 100px;
+}
+.footer-cta-links a > h4 {
+	font-family: 'Barlow', sans-serif;
+	text-transform: capitalize;
+	color: hsl(168, 34%, 41%);
+	margin: 10px;
+}
+.footer-cta-social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(167, 44%, 70%);
+	padding: 25px 100px 50px 100px;
+}
+.footer-cta-social img {
+	mix-blend-mode: darken;
+	margin: 15px;
+	flex: 1 1 100%;
+	min-width: 0;
+}
 
+/* Nav Menu Styles */
+#menu {
+	/* z-index: 1; */
+	/* width: 100%; */
+	/* background-color: white; */
+	/* margin:0 auto; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	/* width: 200px; */
+	/* height: 200px; */
+	min-width: 80%;
+	margin: 0 auto;
 }
-.footer-cta-logo{
-    /* margin:25px 0; */
-    padding:25px 100px;
+.menu-triangle {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	align-self: flex-end;
+	margin-right: 50px;
+	background-color: white;
+	/* transform: rotate(45deg); */
+	margin-right: 6px;
+	margin-bottom: -25px;
+	transform: rotateY(60deg) rotateZ(45deg);
 }
-.footer-cta-links a>h4{
-    font-family: 'Barlow', sans-serif;
-    text-transform: capitalize;
-    color: hsl(168, 34%, 41%);
-    margin:10px;
+.menu-nav {
+	background-color: white;
+	width: 350px; /* height: 200px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	/* padding:50px 0; */
+	/* align-content: stretch; */
 }
-.footer-cta-social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(167, 44%, 70%);
-    padding:25px 100px 50px 100px;
-    
+.menu-nav ul {
+	list-style-type: none;
 }
-.footer-cta-social img{
-    mix-blend-mode: darken;
-    margin: 15px;
-    flex:1 1 100%;
-    min-width: 0;
+
+.menu-nav li {
+	margin: 20px 0;
+}
+.menu-nav li > a {
+	font-family: 'Barlow', sans-serif;
+	text-transform: capitalize; /* margin:10px 0; */
+}
+.none {
+	display: none;
 }
 /* FrontEndMentor Default style */
 .attribution {
 	font-size: 11px;
 	text-align: center;
-    background-color: hsl(167, 44%, 70%);
-    font-family: 'Barlow', sans-serif;
+	background-color: hsl(167, 44%, 70%);
+	font-family: 'Barlow', sans-serif;
 }
-
 .attribution a {
 	color: hsl(228, 45%, 44%);
-    font-family: 'Barlow', sans-serif;
+	font-family: 'Barlow', sans-serif;
 	font-size: 11px;
-
-
 }

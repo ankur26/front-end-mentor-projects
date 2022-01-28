@@ -221,6 +221,8 @@ a:hover {
 .footer-cta-logo {
 	/* margin:25px 0; */
 	padding: 25px 100px;
+	max-width: 200px;
+	margin: 0 auto;
 }
 .footer-cta-links a > h4 {
 	font-family: 'Barlow', sans-serif;
@@ -414,7 +416,22 @@ a:hover {
 	.footer-image-grid{
 		flex-direction: row;
 	}
+	.testimonials{
+		padding:100px;
+	}
 	.testimonial-content{
 		display: flex;
+		gap:50px;
+		justify-content: space-evenly;
+	}
+	.footer-cta{
+		padding-top:100px;
+	}
+	.footer-cta-social{
+		max-width: 200px;
+		margin: 0 auto;
+	}
+	.footer-social-bg{
+		background-color: hsl(167, 44%, 70%);
 	}
 }

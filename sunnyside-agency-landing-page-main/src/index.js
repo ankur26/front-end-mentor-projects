@@ -1,3 +1,7 @@
+// window.addEventListener('resize',(e)=>{
+//     console.log(e.target.innerHeight,e.target.innerWidth);
+// })
+
 let hamburger = document.getElementById('hamburger');
 let headerContent = document.querySelector('.header-content');
 let menu = document.querySelector('.menu');

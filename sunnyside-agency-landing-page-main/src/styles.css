@@ -326,7 +326,8 @@ a:hover {
 
 @media (min-width: 900px) {
 	body {
-		max-width: 1440px;
+		/* max-width: 1440px; */
+		min-width: 975px;
 	}
 	.mobile {
 		display: none;
@@ -400,8 +401,8 @@ a:hover {
 		/* padding-top:350px; */
 		/* box-sizing: content-box; */
 	}
-	#graphic-design h2, #graphic-design p, #graphic-design a{
-		padding:0 50px;
+	#graphic-design h2, #graphic-design p{
+		padding:0 75px;
 	}
 	#photography {
 		background-image: url('../images/desktop/image-photography.jpg');
@@ -410,9 +411,12 @@ a:hover {
 		/* padding-top:350px; */
 		/* box-sizing: content-box; */
 	}
-	#photography p{
-		padding:0 25px;
+	#photography p,#photography h2{
+		padding:0 75px;
 	}
+	/* #photography p{
+		padding:0 25px;
+	} */
 	.footer-image-grid{
 		flex-direction: row;
 	}
@@ -433,5 +437,20 @@ a:hover {
 	}
 	.footer-social-bg{
 		background-color: hsl(167, 44%, 70%);
+	}
+}
+
+@media (min-width: 1000px){
+	body{
+		min-width: 1200px;
+		max-width: 1440px;
+	}
+	#photography p,#photography h2{
+		padding:0 125px;
+	}
+}
+@media (min-width: 1440px){
+	#photography p,#photography h2{
+		padding:0 150px;
 	}
 }

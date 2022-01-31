@@ -29,6 +29,9 @@ body {
 	height: auto;
 	margin-left: auto;
 }
+.menu-desktop{
+	display: none;
+}
 .header-content {
 	display: flex;
 	flex-direction: column;
@@ -244,8 +247,8 @@ a:hover {
 	min-width: 0;
 }
 
-/* Nav Menu Styles */
-.menu {
+/* Nav menu-mobile Styles */
+.menu-mobile {
 	/* z-index: 1; */
 	/* width: 100%; */
 	/* background-color: white; */
@@ -339,6 +342,7 @@ a:hover {
 		background-image: url("../images/desktop/image-header.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% auto;
+		/* display: flex; */
 	}
 	.header-content h1 {
 		margin-top: 50px;
@@ -349,8 +353,39 @@ a:hover {
 		padding-top:calc(((100% - 900px) / 540) * 150);
 		padding-bottom:calc(150px + (((100% - 900px) / 540) * 150));
 	}
+	.header-menu{
+		display: flex;
+		justify-content: space-between;
+	}
 	#logo-nav .logo {
 		width: 250px;
+		padding-left: 30px;
+	}
+	#hamburger{
+		display: none;
+	}
+	.menu-mobile{
+		display: none;
+	}
+	.menu-nav{
+		background-color: transparent;
+		font-size: 2rem;
+		
+	}
+	.menu-nav li > a{
+		color: white;
+	}
+	#contact{
+		background-color: white;
+		color: hsl(212, 27%, 19%);
+	}
+	.menu-desktop{
+		display: inline-block;
+		padding-right: 30px;
+	}
+	ul{
+		display: flex;
+		background-color: transparent;
 	}
 	#transform,
 	#stand-out {

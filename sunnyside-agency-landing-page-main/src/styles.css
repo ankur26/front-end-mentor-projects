@@ -391,7 +391,7 @@ a:hover {
 	#stand-out {
 		display: flex;
 	}
-	#stand-out {
+	#transform {
 		flex-flow: row-reverse nowrap;
 	}
 	#transform .row-image,

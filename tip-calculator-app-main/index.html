@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+
+<body>
+  <main class="main">
+
+    <section class="logo">
+      <img src="images/logo.svg" alt="logo">
+    </section>
+    <section class="content">
+      <section class="billing">
+        <section class="bill-input">
+          <section class="bill-label">
+            <label for="bill">Bill</label>
+          </section>
+          <section class="bill-field">
+            <section class="dollar">
+              <img src="images/icon-dollar.svg" alt="dollar">
+            </section>
+            <section class="input-text">
+              <input type="text" name="bill" id="bill" maxlength="5" value="" pattern="^[1-9]\d*(\.\d+)?$">
+            </section>
+          </section>
+        </section>
+        <section class="tip-input">
+          <section class="tip-label">
+            <label for="tip">Select Tip %</label>
+          </section>
+          <section class="tip-list">
+            <ul>
+              <li><button class="selected">5%</button></li>
+              <li><button class="">10%</button></li>
+              <li><button class="">15%</button></li>
+              <li><button class="">20%</button></li>
+              <li><button class="">25%</button></li>
+              <li class="input-text"><input type="number" id="custom" name="custom" placeholder="Custom" min="0" max="100" minlength="1" maxlength="3"></li>
+            </ul>
+          </section>
+        </section>
+        <section class="people-input">
+          <section class="people-label">
+            <label for="people">Number of People</label>
+          </section>
+          <section class="people-field">
+            <section class="people-image">
+              <img src="images/icon-person.svg" alt="people">
+            </section>
+            <section class="input-text">
+              <input type="text" name="people" id="people" minlength="1" maxlength="3" >
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="amount">
+        <section class="tip-per-person">
+          <section class="labels">
+            <div class="title">Tip Amount</div>
+            <div class="per-person">/ person</div>
+          </section>
+          <section class="per-person-amount ">
+            <div id="person-placeholder">0.00$</div>
+          </section>
+        </section>
+        <section class="total-per-person">
+          <section class="labels">
+            <div class="title">Total</div>
+            <div class="per-person">/ person</div>
+          </section>
+          <section class="per-person-amount ">
+            <div id="total-placeholder">0.00$</div>
+          </section>
+        </section>
+        <section class="reset">
+          <button id="reset" disabled>Reset</button>
+        </section>
+      </section>
+    </section>
+  </main>
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ankur Bhatkalkar</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

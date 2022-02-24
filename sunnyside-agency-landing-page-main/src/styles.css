@@ -483,6 +483,9 @@ a:hover {
 	#photography p,#photography h2{
 		padding:0 125px;
 	}
+	#transform,#stand-out{
+		margin:-5px 0;
+	}
 }
 @media (min-width: 1440px){
 	#photography p,#photography h2{

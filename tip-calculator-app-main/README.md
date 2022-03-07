@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL (**To be added soon**): [Add solution URL here](https://www.frontendmentor.io/solutions/attempt-at-tip-calculator-challenge-i-BLAR1oX)
-- Live Site URL (**To be added soon**): [Add live site URL here](https://front-end-mentor-projects-sable.vercel.app/tip-calculator-app-main/index.html)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/attempt-at-tip-calculator-challenge-i-BLAR1oX)
+- Live Site URL: [Link](https://front-end-mentor-projects-sable.vercel.app/tip-calculator-app-main/index.html)
 
 ## My process
 

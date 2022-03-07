@@ -215,7 +215,14 @@ main {
 		height:95%;
 		/* margin-left: auto; */
 		margin-right: 0;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-around;
 	}
+	.tip-per-person .labels > .title,
+.total-per-person .labels > .title{
+	font-size: 1rem;
+}
 	.per-person-amount #total-placeholder,
 .per-person-amount #person-placeholder {
 	font-weight: 700;

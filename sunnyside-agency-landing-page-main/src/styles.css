@@ -486,6 +486,9 @@ a:hover {
 	#transform,#stand-out{
 		margin:-5px 0;
 	}
+	.amount{
+		display: flex;
+	}
 }
 @media (min-width: 1440px){
 	#photography p,#photography h2{

@@ -25,7 +25,7 @@ FrontEndMentor link - <a href="https://www.frontendmentor.io/">link</a>
 ### Original Challenge Link <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Link</a>, <a href="https://github.com/ankur26/front-end-mentor-projects/tree/main/tip-calculator-app-main" target="_blank">Link to my Attempt at the Challenge</a>
 
 ## 6. Dictionary app
-### Original Challenge Link: <a href="https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL">Link</a>, <a href="https://github.com/ankur26/dictionary" target="_blank">Linke to my attempt at the Challenge</a>
+### Original Challenge Link: <a href="https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL">Link</a>, Link to my attempt at the Challenge <a href="https://github.com/ankur26/dictionary" target="_blank">Link</a>
 
 ## 7. To-Do List
-### Original Challenge Link: <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW">Link</a>, <a href="https://github.com/ankur26/todo-list"> Link to my attempt at the challenge</a>
+### Original Challenge Link: <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW">Link</a>, Link to my attempt at the challenge  <a href="https://github.com/ankur26/todo-list">Link</a>

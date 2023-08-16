@@ -20,7 +20,6 @@ FrontEndMentor link - <a href="https://www.frontendmentor.io/">link</a>
 ## 4. Sunnyside Agency Landing Page
 ### Original Challenge Link <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef" target="_blank">Link</a>, Link to my attempt at the Challenge <a href="https://github.com/ankur26/front-end-mentor-projects/tree/main/sunnyside-agency-landing-page-main" target="_blank">Link</a>
 
-
 ## 5. Tip Calculator Project
 ### Original Challenge Link <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Link</a>, Link to my Attempt at the Challenge <a href="https://github.com/ankur26/front-end-mentor-projects/tree/main/tip-calculator-app-main" target="_blank">Link</a>
 
